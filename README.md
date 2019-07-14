@@ -1,1 +1,2 @@
-# message_board_php
+## PHP にて メッセージボード(Web) 作成
+#### PHP + MySQL
