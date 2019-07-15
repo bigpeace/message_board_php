@@ -69,7 +69,7 @@ if (!empty($_POST)) {
                 <p class="error">* メールアドレスとパスワードをご記入ください。</p>
                 <?php endif; ?>
                 <?php if ($error['login'] == 'failed'): ?>
-                <p class="error">ログインに失敗しました。正しご記入ください。</p>
+                <p class="error">ログインに失敗しました。正しくご記入ください。</p>
                 <?php endif; ?>
             </dd>
             <dt>パスワード</dt>
