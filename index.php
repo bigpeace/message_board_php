@@ -86,7 +86,7 @@ function makeLink($value) {
 		foreach ($posts as $post):
 		?>
 		<div class="msg">
-			<img src="member_picture/<?php echo h($post['picture']); ?>" width="48" height="48" alt="<?php echo h($post['name']); ?>" />
+			<img src="./join/member_picture/<?php echo h($post['picture']); ?>" width="48" height="48" alt="<?php echo h($post['name']); ?>" />
 			<p><?php echo makeLink(h($post['message'])); ?><span class="name"> (<?php echo h($post['name']); ?>) </span>
 		<!--[<a href="index.php?res=<?php // echo htmlspecialchars($post['id'], ENT_QUOTES); ?>">Re</a>] --></p>
 			<p class="day">
